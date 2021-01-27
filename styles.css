@@ -1,0 +1,50 @@
+body{
+    background-color: #fff7ae;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 120px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor{
+    background-color: rgb(238, 255, 249);
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid black;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    padding: 0 5px;
+}
+
+button{
+    margin-left: 15px;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#total{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divisor1{
+    display: flex;
+    justify-content: space-between;
+}
